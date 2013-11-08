@@ -44,6 +44,7 @@ else
 	cd anything-config
 	make
 	echo "done"
+	cd ../
 fi
 
 echo -n "installing auto-complete"
@@ -51,7 +52,9 @@ if [ -d auto-complete ] ; then
 	echo "already installed"
 else
 	git clone https://github.com/auto-complete/auto-complete.git
+	cd auto-complete
 	make
+	cd ../
 	echo "done"
 fi
 echo -n "installing popup.el ..."
