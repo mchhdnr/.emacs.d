@@ -12,9 +12,14 @@ mchhdnr@gmail.com
    - init.el		Emacs Configuration File
    - install.sh		shell script for install
    - site-lisp/*.el	molokai theme file	
+   - readme.txt		this file
+   - readme.ja_JP.txt	Japanese Translation
 
 * REQUIREMENTS
 Emacs 24
+Ubuntu
+(* any other distributions than Ubuntu (or Debian), please manually install emacs-mozc package)
+
 (Tested on Emacs24.3.1 on Ubuntu 13.04)
 
 * REQUIRED PACKAGES
