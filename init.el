@@ -87,3 +87,10 @@
 (setq molokai-theme-kit t)
 (load-theme 'molokai t)
 (enable-theme 'molokai)
+
+;emacs-mozc
+; sudo apt-get install emacs-mozc emacs-mozc-bin
+(require 'mozc)
+(set-language-environment "Japanese")
+(setq default-input-method "japanese-mozc")
+(global-set-key (kbd "<zenkaku-hankaku>") 'toggle-input-method)
